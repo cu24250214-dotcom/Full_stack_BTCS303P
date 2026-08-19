@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore - Product Detail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Common Header & Navbar -->
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">⚡ TechStore</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="product-detail-container">
+      
+      <!-- Larger Image -->
+      <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80" alt="Wireless Noise-Canceling Headphones" class="detail-img">
+      
+      <!-- Product Info -->
+      <div class="detail-info">
+        <h1>Wireless Noise-Canceling Headphones</h1>
+        <div class="detail-price">$149.99</div>
+        
+        <p class="description">
+          Experience studio-quality sound wherever you go. These wireless headphones feature advanced active noise cancellation (ANC) to block out background chatter and ambient noise, allowing you to focus on your music, podcasts, or calls.
+        </p>
+
+        <h3>Key Features:</h3>
+        <ul>
+          <li>40mm High-Resolution Audio Drivers</li>
+          <li>Active Noise Cancellation (ANC) with ambient mode</li>
+          <li>Up to 30 hours of battery life on a single charge</li>
+          <li>Fast USB-C charging (10 mins charge = 3 hours playback)</li>
+          <li>Plush memory foam ear cushions for all-day comfort</li>
+        </ul>
+
+        <!-- Quantity Selector -->
+        <div class="quantity-control">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+        </div>
+
+        <!-- Add to Cart Button -->
+        <a href="cart.html" class="btn btn-primary" style="align-self: flex-start; margin-top: 1rem;">Add to Cart</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Common Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <p>Contact Us: support@techstore.com | Phone: +1 (800) 555-TECH</p>
+      <p>&copy; 2026 TechStore Inc. All rights reserved. Department of CSE, COER University.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
