@@ -15,7 +15,7 @@
       <nav>
         <a href="index.html" class="active">Home</a>
         <a href="products.html">Products</a>
-        <a href="cart.html">Cart</a>
+        <a href="cart.html">Cart <span class="cart-badge">0</span></a>
       </nav>
     </div>
   </header>
@@ -40,7 +40,10 @@
           <p class="description">Noise-canceling over-ear headphones with 30-hour battery life.</p>
           <div class="product-footer">
             <span class="price">$149.99</span>
-            <a href="product-detail.html" class="btn btn-secondary">View Details</a>
+            <div style="display: flex; gap: 0.5rem;">
+              <a href="product-detail.html" class="btn btn-secondary" style="padding: 0.5rem 0.75rem; font-size: 0.875rem;">Details</a>
+              <button type="button" class="btn btn-primary btn-add-cart" data-id="1" style="padding: 0.5rem 0.75rem; font-size: 0.875rem;">Add to Cart</button>
+            </div>
           </div>
         </div>
 
@@ -50,7 +53,10 @@
           <p class="description">Heart rate monitor, GPS tracking, and AMOLED display.</p>
           <div class="product-footer">
             <span class="price">$199.99</span>
-            <a href="product-detail.html" class="btn btn-secondary">View Details</a>
+            <div style="display: flex; gap: 0.5rem;">
+              <a href="product-detail.html" class="btn btn-secondary" style="padding: 0.5rem 0.75rem; font-size: 0.875rem;">Details</a>
+              <button type="button" class="btn btn-primary btn-add-cart" data-id="2" style="padding: 0.5rem 0.75rem; font-size: 0.875rem;">Add to Cart</button>
+            </div>
           </div>
         </div>
 
@@ -60,7 +66,10 @@
           <p class="description">15-inch display, M2 Chip, 16GB RAM, 512GB SSD.</p>
           <div class="product-footer">
             <span class="price">$1,299.99</span>
-            <a href="product-detail.html" class="btn btn-secondary">View Details</a>
+            <div style="display: flex; gap: 0.5rem;">
+              <a href="product-detail.html" class="btn btn-secondary" style="padding: 0.5rem 0.75rem; font-size: 0.875rem;">Details</a>
+              <button type="button" class="btn btn-primary btn-add-cart" data-id="3" style="padding: 0.5rem 0.75rem; font-size: 0.875rem;">Add to Cart</button>
+            </div>
           </div>
         </div>
 
@@ -70,7 +79,10 @@
           <p class="description">Waterproof IPX7 speaker with deep bass and 360-degree sound.</p>
           <div class="product-footer">
             <span class="price">$79.99</span>
-            <a href="product-detail.html" class="btn btn-secondary">View Details</a>
+            <div style="display: flex; gap: 0.5rem;">
+              <a href="product-detail.html" class="btn btn-secondary" style="padding: 0.5rem 0.75rem; font-size: 0.875rem;">Details</a>
+              <button type="button" class="btn btn-primary btn-add-cart" data-id="4" style="padding: 0.5rem 0.75rem; font-size: 0.875rem;">Add to Cart</button>
+            </div>
           </div>
         </div>
 
@@ -92,5 +104,6 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@
       <nav>
         <a href="index.html">Home</a>
         <a href="products.html">Products</a>
-        <a href="cart.html" class="active">Cart</a>
+        <a href="cart.html" class="active">Cart <span class="cart-badge">0</span></a>
       </nav>
     </div>
   </header>
@@ -33,38 +33,11 @@
             <th>Unit Price</th>
             <th>Quantity</th>
             <th>Subtotal</th>
+            <th>Action</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>
-              <strong>Wireless Noise-Canceling Headphones</strong>
-            </td>
-            <td>$149.99</td>
-            <td>1</td>
-            <td>$149.99</td>
-          </tr>
-          <tr>
-            <td>
-              <strong>Ergonomic Wireless Mouse</strong>
-            </td>
-            <td>$49.99</td>
-            <td>2</td>
-            <td>$99.98</td>
-          </tr>
-          <tr>
-            <td>
-              <strong>RGB Mechanical Keyboard</strong>
-            </td>
-            <td>$89.99</td>
-            <td>1</td>
-            <td>$89.99</td>
-          </tr>
-          <!-- Grand Total Row -->
-          <tr class="grand-total-row">
-            <td colspan="3" style="text-align: right;">Grand Total:</td>
-            <td>$339.96</td>
-          </tr>
+          <!-- Dynamically populated from localStorage by script.js (Tasks 4 & 5) -->
         </tbody>
       </table>
     </div>
@@ -90,5 +63,6 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
