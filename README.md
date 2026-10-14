@@ -188,7 +188,7 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 **Akshit Negi**  
 🎓 Enrollment No.: `CU24250214`  
-🏫 Chandigarh University  
+🏫 COER University  
 🔗 GitHub: [@cu24250214-dotcom](https://github.com/cu24250214-dotcom)
 
 ---
