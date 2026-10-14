@@ -3,9 +3,10 @@
 > **Course:** Full Stack Development Lab — BTCS303P  
 > **Student:** Akshit Negi  
 > **Enrollment No.:** CU24250214  
+> **University:** Chandigarh University  
 > **GitHub:** [@cu24250214-dotcom](https://github.com/cu24250214-dotcom)
 
-A collection of lab experiments, assignments, and projects for the **Full Stack Development** course (BTCS303P), covering front-end, back-end, and database concepts.
+A collection of lab experiments, assignments, and full-stack projects for the **BTCS303P – Full Stack Development Lab** course, covering front-end (HTML/CSS/JS/React), back-end (Node.js/Express), and database (SQL/MongoDB) concepts.
 
 ---
 
@@ -13,10 +14,14 @@ A collection of lab experiments, assignments, and projects for the **Full Stack 
 
 - [About](#-about)
 - [Tech Stack](#️-tech-stack)
-- [Repository Contents](#-repository-contents)
-  - [Lab Sheets](#-lab-sheets)
-  - [Assignments](#-assignments)
-  - [Other Resources](#-other-resources)
+- [Repository Structure](#-repository-structure)
+  - [Root Level](#-root-level)
+  - [Assignment Projects](#-assignment-projects)
+    - [techstore-frontend](#1-techstore-frontend--vanilla-js)
+    - [techstore-react](#2-techstore-react--react--vite)
+- [Lab Sheets](#-lab-sheets)
+- [Assignments](#-assignments)
+- [Other Resources](#-other-resources)
 - [Getting Started](#-getting-started)
 - [Author](#-author)
 
@@ -24,7 +29,12 @@ A collection of lab experiments, assignments, and projects for the **Full Stack 
 
 ## 📌 About
 
-This repository contains all practical assignments and lab sheets completed as part of the **BTCS303P – Full Stack Development Lab** course at Chandigarh University. Each file represents work submitted for that particular lab or assignment.
+This repository contains all practical lab sheets, assignments, and projects completed as part of the **BTCS303P – Full Stack Development Lab** course at Chandigarh University. It includes:
+
+- Lab sheet solutions (Labs 3–7)
+- Practical assignment solutions
+- Two full-stack projects: a **Vanilla JS TechStore** and a **React + Vite TechStore**
+- SQL practice materials
 
 ---
 
@@ -32,40 +42,110 @@ This repository contains all practical assignments and lab sheets completed as p
 
 | Layer | Technologies |
 |---|---|
-| **Front-end** | HTML, CSS, JavaScript, React |
+| **Front-end** | HTML5, CSS3, JavaScript (ES6+), React 18 |
+| **Build Tool** | Vite |
 | **Back-end** | Node.js, Express.js |
 | **Database** | MongoDB, MySQL, SQL |
 | **Tools** | Git, GitHub, VS Code, Postman |
 
 ---
 
-## 📂 Repository Contents
+## 📂 Repository Structure
 
-### 🧪 Lab Sheets
+```
+Full_stack_BTCS303P/
+│
+├── 📄 .gitignore
+├── 📄 README.md
+│
+├── 📋 Lab Sheets
+│   ├── labsheet_3_Akshit_Negi_CU24250214.pdf
+│   ├── LAB SHEET 4.pdf
+│   ├── Full Stack lab sheet 5_Akshit_Negi.pdf
+│   ├── LabSheet-6 Full Stack.pdf.pdf
+│   └── Labsheet 7_Solution_.pdf
+│
+├── 📝 Assignments (PDFs)
+│   ├── BTCS303P-AS01-Solution.pdf
+│   └── BTCS303P-AS02-Solution.pdf
+│
+├── 📦 SQL_Practice_Sheet.pdf
+│
+└── 📁 assignment/
+    │
+    ├── 📁 techstore-frontend/          ← Vanilla HTML/CSS/JS Project
+    │   ├── index.html                  (Homepage)
+    │   ├── product.html                (Products page)
+    │   ├── products.html               (Products listing)
+    │   ├── product-detail.html         (Product detail view)
+    │   ├── cart.html                   (Shopping cart)
+    │   ├── checkout.html               (Checkout page)
+    │   ├── script.js                   (Main JavaScript logic)
+    │   └── style.css                   (Global styles)
+    │
+    └── 📁 techstore-react/             ← React + Vite Project
+        ├── index.html
+        ├── package.json
+        ├── vite.config.js
+        ├── .gitignore
+        ├── .oxlintrc.json
+        │
+        ├── 📁 public/
+        │   ├── favicon.svg
+        │   └── icons.svg
+        │
+        └── 📁 src/
+            ├── App.jsx                 (Root component)
+            ├── App.css
+            ├── main.jsx                (Entry point)
+            ├── index.css
+            ├── products.js             (Product data)
+            │
+            ├── 📁 assets/
+            │   ├── hero.png
+            │   ├── react.svg
+            │   └── vite.svg
+            │
+            └── 📁 components/
+                ├── Navbar.jsx
+                ├── Hero.jsx
+                ├── ProductList.jsx
+                ├── ProductCard.jsx
+                ├── Cart.jsx
+                ├── CheckoutForm.jsx
+                └── Footer.jsx
+```
 
-| # | File | Description |
+---
+
+## 🧪 Lab Sheets
+
+| Lab # | File | Description |
 |---|---|---|
-| Lab 3 | [labsheet_3_Akshit_Negi_CU24250214.pdf](labsheet_3_Akshit_Negi_CU24250214.pdf) | Lab Sheet 3 – Solution by Akshit Negi |
+| Lab 3 | [labsheet_3_Akshit_Negi_CU24250214.pdf](labsheet_3_Akshit_Negi_CU24250214.pdf) | Lab Sheet 3 Solution |
 | Lab 4 | [LAB SHEET 4.pdf](<LAB SHEET 4.pdf>) | Lab Sheet 4 – Full Stack |
 | Lab 5 | [Full Stack lab sheet 5_Akshit_Negi.pdf](<Full Stack lab sheet 5_Akshit_Negi.pdf>) | Lab Sheet 5 – Full Stack |
 | Lab 6 | [LabSheet-6 Full Stack.pdf.pdf](<LabSheet-6 Full Stack.pdf.pdf>) | Lab Sheet 6 – Full Stack |
 | Lab 7 | [Labsheet 7_Solution_.pdf](<Labsheet 7_Solution_.pdf>) | Lab Sheet 7 – Solution |
 
-### 📋 Assignments
+---
 
-| # | File | Description |
+## 📋 Assignments
+
+| Assignment | File | Type |
 |---|---|---|
-| AS01 (Practical) | [BTCS303P-AS01-Solution.pdf](BTCS303P-AS01-Solution.pdf) | Assignment 1 – Practical Solution |
-| AS02 (Practical) | [BTCS303P-AS02-Solution.pdf](BTCS303P-AS02-Solution.pdf) | Assignment 2 – Practical Solution |
-| AS05 (Practical) | [BTCS303P-AS05 (1).docx](<BTCS303P-AS05 (1).docx>) | Assignment 5 – Practical (Word Doc) |
-| AS01 (Theory) | [BTCS303T-AS01.docx](BTCS303T-AS01.docx) | Assignment 1 – Theory (Word Doc) |
+| AS01 | [BTCS303P-AS01-Solution.pdf](BTCS303P-AS01-Solution.pdf) | Practical Solution (PDF) |
+| AS02 | [BTCS303P-AS02-Solution.pdf](BTCS303P-AS02-Solution.pdf) | Practical Solution (PDF) |
+| Project | [assignment/techstore-frontend](assignment/techstore-frontend/) | TechStore – Vanilla JS |
+| Project | [assignment/techstore-react](assignment/techstore-react/) | TechStore – React + Vite |
 
-### 📁 Other Resources
+---
 
-| File/Folder | Description |
+## 📦 Other Resources
+
+| File | Description |
 |---|---|
-| [SQL_Practice_Sheet.pdf](SQL_Practice_Sheet.pdf) | SQL Practice Questions |
-| [assignment/](assignment/) | Additional assignment files folder |
+| [SQL_Practice_Sheet.pdf](SQL_Practice_Sheet.pdf) | SQL Practice Questions & Exercises |
 
 ---
 
@@ -75,7 +155,7 @@ This repository contains all practical assignments and lab sheets completed as p
 
 - [Node.js](https://nodejs.org/) (v18+)
 - [Git](https://git-scm.com/)
-- A code editor like [VS Code](https://code.visualstudio.com/)
+- [VS Code](https://code.visualstudio.com/) or any editor
 
 ### Clone the Repository
 
@@ -83,6 +163,24 @@ This repository contains all practical assignments and lab sheets completed as p
 git clone https://github.com/cu24250214-dotcom/Full_stack_BTCS303P.git
 cd Full_stack_BTCS303P
 ```
+
+### Run the Vanilla JS TechStore
+
+```bash
+# Just open in browser — no build step needed
+cd assignment/techstore-frontend
+# Open index.html in your browser
+```
+
+### Run the React + Vite TechStore
+
+```bash
+cd assignment/techstore-react
+npm install
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
