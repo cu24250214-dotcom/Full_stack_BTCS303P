@@ -3,7 +3,7 @@
 > **Course:** Full Stack Development Lab — BTCS303P  
 > **Student:** Akshit Negi  
 > **Enrollment No.:** CU24250214  
-> **University:** Chandigarh University  
+> **University:** COER University  
 > **GitHub:** [@cu24250214-dotcom](https://github.com/cu24250214-dotcom)
 
 A collection of lab experiments, assignments, and full-stack projects for the **BTCS303P – Full Stack Development Lab** course, covering front-end (HTML/CSS/JS/React), back-end (Node.js/Express), and database (SQL/MongoDB) concepts.
